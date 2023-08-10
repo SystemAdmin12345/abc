@@ -1,5 +1,5 @@
 -- * Adjustable Values
-local SafeMode = 1 -- Default: 1
+local SafeMode = true -- Default: true
 
 -- ? Dictionary
 local dict = {
@@ -10,7 +10,7 @@ for k, v in pairs(dict) do
     print(k, v)
 end
 -- ! Unsafe
-if SafeMode == 0 then
+if SafeMode == false then
 while true do
     print(dict["moai"])
 end
