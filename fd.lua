@@ -1,4 +1,4 @@
-IQ = 5
+local IQ = 5
 
 while true do
     print("Current IQ: " .. IQ)
