@@ -5,7 +5,7 @@ local SafeMode = 1 -- Default: 1
 local dict = {
     ["moai"] = "🗿"
 }
--- * Safe
+-- Safe
 for k, v in pairs(dict) do
     print(k, v)
 end
