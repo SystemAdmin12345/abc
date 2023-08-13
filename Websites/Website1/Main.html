@@ -22,8 +22,8 @@
 
         <div>    
             <p>Links:</p>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>Don't Click</button></a> <!-- Rickroll -->
-            <a href="https://www.roblox.com"> <button>Roblox</button> </a> <!-- Roblox -->
+            <div> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <button> Don't Click </button> </a> </div> <!-- Rickroll -->
+            <div> <a href="https://www.roblox.com"> <button>Roblox</button> </a> </div> <!-- Roblox -->
         </div>
 
         <div class="image-container">
@@ -34,8 +34,19 @@
 
 <!-- <iframe src="content.html" frameborder="0" scrolling="auto"></iframe> -->
 
-        <button id="theme-toggle">Toggle Theme</button>
+        <div><button id="theme-toggle">Toggle Theme</button></div>
+        <div id="MiniCookieClickerButton" class="image-container">
+            <button onclick="createCookies()" 
+            id="CC-Create-Cookie">
+                <img
+                src="Assets/Cookie.png" 
+                alt="Cookie"
+                >
+                <p id="CC Cookies">You have <span id="CookieAmount">0</span> cookies</p>
+            </button>
+        </div>
 
+        <script src="CookieClick.js"></script>
         <script src="ThemeChanger.js"></script>
     </body>
 </html>
