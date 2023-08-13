@@ -4,6 +4,7 @@
     button:hover {
         background: black; 
         border-color: gray;
+        color: white;
     }
     button {
         background: gray; 
