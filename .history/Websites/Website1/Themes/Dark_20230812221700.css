@@ -1,0 +1,30 @@
+    /* Local */
+
+    /* Button Styles */
+    button:hover {
+        background: blue; 
+        border-color: navy;
+    }
+    button {
+        background: red; 
+        font-family: "Arial"; 
+        border-radius: 10px; 
+        border-color: brown;
+    }
+    /* Text Styles */
+    h1 {
+        color:darkred; 
+        font:bold; 
+    }
+    h2 {
+        color:darkred; 
+        font:bold; 
+    }
+    body { 
+        font-family: "Arial"; 
+        color:red; 
+        background:b;
+    }
+    img { 
+        border-radius: 3px;
+    }

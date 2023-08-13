@@ -1,11 +1,5 @@
     /* Local */
-    .image-container {
-        width: 30%;
-    }
-    .image-container img {
-        max-width: 100%;
-        height: auto;
-    }
+
     /* Button Styles */
     button:hover {
         background: blue; 
@@ -13,7 +7,7 @@
     }
     button {
         background: red; 
-        font-family: "Comic Sans MS"; 
+        font-family: "Arial"; 
         border-radius: 10px; 
         border-color: brown;
     }
@@ -27,9 +21,9 @@
         font:bold; 
     }
     body { 
-        font-family: "Comic Sans MS"; 
+        font-family: "Arial"; 
         color:red; 
-        background:yellow;
+        background:dark;
     }
     img { 
         border-radius: 3px;
