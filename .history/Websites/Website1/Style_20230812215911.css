@@ -1,4 +1,3 @@
-    /* Local */
     .image-container {
         width: 30%;
     }
@@ -30,6 +29,9 @@
         font-family: "Comic Sans MS"; 
         color:red; 
         background:yellow;
+    }
+    body {
+        
     }
     img { 
         border-radius: 3px;
