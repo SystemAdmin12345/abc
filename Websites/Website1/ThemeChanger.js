@@ -7,7 +7,10 @@ themeToggle.addEventListener("click", () => {
         currentTheme = "Light";
     } else if (currentTheme === "Light") {
         currentTheme = "Design";
-    } else {
+    } else if (currentTheme === "Design") {
+        currentTheme = "Galactic";
+    }
+    else {
         currentTheme = "Dark";
     }
     themeLink.href = `Themes/${currentTheme}.css`;

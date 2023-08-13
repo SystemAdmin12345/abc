@@ -1,0 +1,33 @@
+/* Button Styles */
+button {
+    background: darkgray;
+    border: 2px solid gray;
+    border-radius: 0;
+    font-family: "Zekton";
+    cursor: pointer;
+}
+button:hover {
+    background: white;
+    border-color: darkgray;
+}
+
+/* Text Styles */
+h1, h2 {
+    color: white;
+    font-weight: bold;
+}
+
+/* Body Styles */
+body {
+    font-family: "Zekton";
+    color: white;
+    background-image: url("assets/GalacticWallpaper.jpeg");
+    background-size: cover;
+    /*margin: 0; *//* Remove default margin */
+    /*padding: 0; *//* Remove default padding */
+}
+
+/* Image Styles */
+img {
+    border-radius: 0;
+}
