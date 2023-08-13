@@ -3,6 +3,12 @@ const themeLink = document.getElementById("theme-link");
 let currentTheme = "Dark";
 
 themeToggle.addEventListener("click", () => {
-    currentTheme = currentTheme === "Dark" ? "Design" : "Dark";
+    if (currentTheme === "Dark") {
+        currentTheme = "Light";
+    } else if (currentTheme === "Light") {
+        currentTheme = "Design";
+    } else {
+        currentTheme = "Dark";
+    }
     themeLink.href = `Themes/${currentTheme}.css`;
 });
