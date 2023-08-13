@@ -21,7 +21,7 @@ h1, h2 {
 body {
     font-family: "Zekton";
     color: white;
-    background-image: url("assets/GalacticWallpaper.jpeg");
+    background-image: url("Assets/GalacticWallpaper.jpeg");
     background-size: cover;
     /*margin: 0; *//* Remove default margin */
     /*padding: 0; *//* Remove default padding */
