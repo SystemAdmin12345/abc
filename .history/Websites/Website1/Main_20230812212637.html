@@ -1,11 +1,8 @@
 <!-- * CSS Component-->
 <style>
     .image-container {
-        width: 30%;
-    }
-    .image-container img {
         max-width: 100%;
-        height: auto;
+        max-height: 100%;
     }
     button:hover {
         background: blue; 
@@ -26,15 +23,9 @@
         font:bold; 
     }
     body { 
-        font-family: "Comic Sans MS"; 
-        color:red; 
-    }
-    body {
-        background:yellow
-    }
-    img { 
-        border-radius: 3px;
-    }
+        font-family: "Comic Sans MS"; color:red; }
+    body {background:yellow}
+    img { border-radius: 3px;}
 </style>
 <!--* Main HTML -->
 <html>
@@ -58,11 +49,11 @@
             <a href="https://www.roblox.com"> <button>Roblox</button> </a> <!-- Roblox -->
         
         </div>
-        <div class="image-container">
-    <img 
+        <img 
         src="Assets/Nesica.png" 
-        alt="A NESiCA Card">
-</div>
+        alt="A NESiCA Card"
+        width="30%"
+        height="50%" > <!-- A NESiCA card -->
     </body>
 </html>
 
