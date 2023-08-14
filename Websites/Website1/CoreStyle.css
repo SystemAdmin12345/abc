@@ -1,16 +1,16 @@
-    /* Core Styles */
-    .image-container {
-        width: 30%;
-    }
-    .image-container img {
-        max-width: 100%;
-        height: auto;
-    }
-    iframe {
-        width: 100%; /* Set the width of the iframe */
-        height: 400px; /* Set the initial height of the iframe */
-    }
-    html, body {
-        height: 100%;
-        width: 100%;
-    }
+/* Core Styles */
+.image-container {
+    width: 30%;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    width: 100%; /* Set the width of the iframe */
+    height: 400px; /* Set the initial height of the iframe */
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
