@@ -10,3 +10,7 @@
         width: 100%; /* Set the width of the iframe */
         height: 400px; /* Set the initial height of the iframe */
     }
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
