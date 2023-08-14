@@ -1,32 +1,32 @@
-    /* Local */
+/* Local */
 
-    /* Button Styles */
-    button:hover {
-        background: black; 
-        border-color: gray;
-        color: white;
-    }
-    button {
-        background: gray; 
-        font-family: "Arial"; 
-        border-radius: 0px; 
-        border-width: 2px;
-        border-color: darkgray;
-    }
-    /* Text Styles */
-    h1 {
-        color:black; 
-        font:bold; 
-    }
-    h2 {
-        color:black; 
-        font:bold; 
-    }
-    body { 
-        font-family: "Arial"; 
-        color:black; 
-        background:white;
-    }
-    img { 
-        border-radius: 0px;
-    }
+/* Button Styles */
+button:hover {
+  background: black;
+  border-color: gray;
+  color: white;
+}
+button {
+  background: gray;
+  font-family: "Arial";
+  border-radius: 0px;
+  border-width: 2px;
+  border-color: darkgray;
+}
+/* Text Styles */
+h1 {
+  color: black;
+  font: bold;
+}
+h2 {
+  color: black;
+  font: bold;
+}
+body {
+  font-family: "Arial";
+  color: black;
+  background: white;
+}
+img {
+  border-radius: 0px;
+}
