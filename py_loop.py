@@ -15,13 +15,6 @@ MAX_CYCLES = 5  # Default: 5
 INCREMENT = 1  # Default: 1
 
 
-def wait(number):
-    """
-    Shortens the waiting function
-    """
-    time.sleep(number)
-
-
 # Initialize Variables
 MODE = 0
 NUMBER = MIN
@@ -35,16 +28,16 @@ while CYCLE < MAX_CYCLES:
             if NUMBER == MAX:
                 break
             print(NUMBER)
-            wait(DELAY)
+            time.sleep(DELAY)
         print(NUMBER)
         MODE = 1
         CYCLE += 1
-    wait(DELAY)
+    time.sleep(DELAY)
     if MODE == 1:
         while NUMBER > MIN:
             NUMBER -= INCREMENT
             print(NUMBER)
-            wait(DELAY)
+            time.sleep(DELAY)
         MODE = 0
         CYCLE += 1
-    wait(DELAY)
+    time.sleep(DELAY)
