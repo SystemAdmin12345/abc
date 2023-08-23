@@ -1,8 +1,13 @@
 '''
-This contains the loop.
+This script contains a basic loop.
 '''
 
+
 import time
+
+# Adjustable Variables
+DELAY = 0.25 # 0.25 by default
+
 
 def wait(number):
     '''
@@ -11,6 +16,7 @@ def wait(number):
     time.sleep(number)
 
 
+# Initialize Variables
 MODE = 0
 NUMBER = 0
 CYCLE = 0
@@ -23,16 +29,17 @@ while CYCLE < 10:
             if NUMBER == 10:
                 break
             print(NUMBER)
-            wait(0.25)
+            wait(DELAY)
         print(NUMBER)
         MODE = 1
         CYCLE += 1
+    wait(DELAY)
     if MODE == 1:
         while NUMBER > 0:
             NUMBER -= 1
             print(NUMBER)
-            wait(0.25)
+            wait(DELAY)
         MODE = 0
         CYCLE += 1
-    wait(0.25)
+    wait(DELAY)
     
