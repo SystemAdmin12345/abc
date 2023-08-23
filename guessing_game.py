@@ -13,7 +13,7 @@ MIN_NUMBER = 1  # Default: 1
 
 while ATTEMPTS > 0:
     print("====================")
-    DISPLAY = f"What number am I thinking of? ({MIN_NUMBER}-{MAX_NUMBER})\nYou have {ATTEMPTS} attempt(s).\nYour Answer: "
+    DISPLAY = f'What number am I thinking of? ({MIN_NUMBER}-{MAX_NUMBER})\nYou have {ATTEMPTS} attempt(s).\nYour Answer: '
     NUMBER = random.randint(MIN_NUMBER, MAX_NUMBER)  # RNG Number
     try:
         USER_NUMBER = int(input(DISPLAY))
@@ -32,7 +32,7 @@ while ATTEMPTS > 0:
 
     if NUMBER == USER_NUMBER:
         print(
-            f"Congratulations! You guessed the correct number with {ATTEMPTS} attempt(s)."
+            f"Congratulations! You guessed the correct number with {ATTEMPTS} attempt(s) remaining."
         )
         break
 
