@@ -12,6 +12,7 @@ MIN_NUMBER = 1  # Default: 1
 # Core
 
 while ATTEMPTS > 0:
+    print("====================")
     DISPLAY = f"What number am I thinking of? ({MIN_NUMBER}-{MAX_NUMBER})\nYou have {ATTEMPTS} attempt(s).\nYour Answer: "
     NUMBER = random.randint(MIN_NUMBER, MAX_NUMBER)  # RNG Number
     try:
