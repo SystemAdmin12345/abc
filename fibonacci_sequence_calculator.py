@@ -2,6 +2,8 @@
 A calculator for the fibonacci sequence (not 100% accurate)
 """
 
+print("Welcome to Fibonacci Sequence Calculator!")
+print("Disclaimer: This program is limited and not perfect.")
 
 DATA_1 = 0  # The main number, gets printed.
 DATA_2 = 1  # The secondary number.
