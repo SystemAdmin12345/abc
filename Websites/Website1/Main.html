@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+  <!-- Head -->
+
+  <head>
+    <title>My First Website</title>
+    <meta name="ChatGPT is used to fix stuff" content="ez" />
+    <link rel="stylesheet" type="text/css" href="CoreStyle.css" />
+    <!-- Core -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="Themes/Dark.css"
+      id="theme-link"
+    />
+  </head>
+
+  <!-- Body -->
+
+  <body>
+    <nav></nav>
+    <h1>My First Website</h1>
+
+    <h2>HTML is awesome</h2>
+
+    <p>CSS is also awesome</p>
+
+    <div>
+      <p>Links:</p>
+      <div>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+          <button>Don't Click</button>
+        </a>
+      </div>
+      <!-- Rickroll -->
+      <div>
+        <a href="https://www.roblox.com"> <button>Roblox</button> </a>
+      </div>
+      <!-- Roblox -->
+    </div>
+
+    <div class="image-container">
+      <img src="Assets/Nesica.png" alt="A NESiCA Card" />
+    </div>
+
+    <!-- <iframe src="content.html" frameborder="0" scrolling="auto"></iframe> -->
+
+    <div><button id="theme-toggle">Toggle Theme</button></div>
+    <div id="MiniCookieClickerButton" class="image-container">
+      <button onclick="createCookies()" id="CC-Create-Cookie">
+        <img src="Assets/Cookie.png" alt="Cookie" />
+        <p id="CC Cookies">You have <span id="CookieAmount">0</span> cookies</p>
+      </button>
+    </div>
+
+    <script src="CookieClick.js"></script>
+    <script src="ThemeChanger.js"></script>
+  </body>
+</html>
