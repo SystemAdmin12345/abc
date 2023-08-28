@@ -1,3 +1,0 @@
-MODE = 0
-NUMBER = 0
-
