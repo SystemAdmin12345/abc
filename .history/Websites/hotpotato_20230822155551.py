@@ -1,3 +1,0 @@
-NUMBER = 0
-
-NUMBLER = 1
