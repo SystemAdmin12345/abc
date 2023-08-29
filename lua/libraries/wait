@@ -1,6 +1,0 @@
-_G.wait = function(seconds)
-    local start = os.time()
-    while os.time() - start < seconds do
-        -- do nothing
-    end
-end
