@@ -4,10 +4,10 @@ local MAX = 69420
 
 -- ! Danger Zone, only change if you know what you are doing!
 
-local Limit = 10000
-local WarnLimit = 5000
-local SafeMode = true
-local MaxBits = 5000
+local Limit = 10000    -- Default: 10000
+local WarnLimit = 5000 -- Default: 5000
+local SafeMode = true  -- Default: true
+local MaxBits = 5000   -- Default: 5000
 
 -- ! Code, do not touch unless you know what you are doing!
 
