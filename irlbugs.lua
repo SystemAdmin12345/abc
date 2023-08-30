@@ -1,1 +1,1 @@
-print("Bugs IRL are Insects and some can cause problems."
+print("Bugs IRL are Insects and some can cause problems.")
