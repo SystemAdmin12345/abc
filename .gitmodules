@@ -1,3 +1,6 @@
 [submodule "gitlab-abc"]
 	path = gitlab-abc
 	url = https://gitlab.com/randoritos/abc
+[submodule "bitbucket-abc"]
+	path = bitbucket-abc
+	url = https://bitbucket.org/abcrandomstuff/abc/src/primary/
