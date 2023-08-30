@@ -1,6 +1,7 @@
 """
 This script crunches numbers!
 """
+
 import time
 NUMBER = 0
 COUNTDOWN = 5
