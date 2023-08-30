@@ -1,0 +1,3 @@
+[submodule "gitlab-abc"]
+	path = gitlab-abc
+	url = https://gitlab.com/randoritos/abc
