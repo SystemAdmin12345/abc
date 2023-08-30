@@ -1,5 +1,5 @@
-COUNTER = 0
-MAX = 10
+local COUNTER = 0
+local MAX = 10
 
 while COUNTER < MAX do
 	print(COUNTER .. " Hello World")
