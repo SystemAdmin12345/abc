@@ -1,10 +1,10 @@
 """
 Temp Loop
 """
-
+# e
 COUNTER = 0
 MAX = 10
 
 while COUNTER < MAX:
-	print(COUNTER, "Hello World")
-	COUNTER += 1
+    print(COUNTER, "Hello World")
+    COUNTER += 1
